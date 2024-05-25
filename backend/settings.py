@@ -163,10 +163,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ALLOWED_ORIGINS = [
-    
+
     'https://lively-bay-02271bb0f.5.azurestaticapps.net'
  ]
 
+CORS_ALLOWED_ORIGINS = [
+    True
+]
 
 
 REST_FRAMEWORK = {
