@@ -9,9 +9,8 @@ WIBBLE2 = 'Wibble2'
 CSRF_TRUSTED_ORIGINS = [ '*']
 
 MIDDLEWARE = [
+
     'django.middleware.security.SecurityMiddleware',
-
-
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
